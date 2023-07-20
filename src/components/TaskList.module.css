@@ -1,0 +1,42 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  border-radius: 1rem;
+  max-width: 25rem;
+  margin: 0 auto;
+  padding: 0.7em;
+}
+
+.details {
+  text-align: left;
+}
+.details h4 {
+  font-size: 1rem;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions i {
+  color: #fff;
+  background-color: #282c34;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  transition: 0.5s;
+}
+
+.actions i:hover {
+  transform: scale(1.1) rotate(-9deg);
+  color: #000;
+  background-color: #ff6868;
+}
